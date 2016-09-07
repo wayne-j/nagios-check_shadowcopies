@@ -1,5 +1,5 @@
 # nagios-check_shadowcopies
-nagios wmic script to confirm very basic status of a shadow copy configuration.
+nagios wmic script to confirm basic status of a shadow copy configuration.
 
 Requires wmic-client in order to function.
 
