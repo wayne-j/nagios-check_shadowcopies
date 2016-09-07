@@ -8,6 +8,6 @@ Built to suit my basic needs, using basic nagios practices it's somewhat customi
 ./check_shadowcopies [Hostname] [domain/username] [password] [Min amount of desired copies in MB] [Min count of copies]
 
 Where:<br>
-  <li>User; is a WMI permissioned user for the hostmachine<br>
-  Min amount of desired copies; adds all shadow copy volumes to WARN if less files than expected are shadowed.<br>
-  Min count of copies; the default number of copies windows stores is 64 per volume.  Critical if less than expected.<br></li>
+  <ul>User; is a WMI permissioned user for the hostmachine<br></ul>
+  <ul>Min amount of desired copies; adds all shadow copy volumes to WARN if less files than expected are shadowed.<br></ul>
+  <ul>Min count of copies; the default number of copies windows stores is 64 per volume.  Critical if less than expected.<br></ul>
